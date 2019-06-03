@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 class MyInfo extends React.Component {
 
@@ -11,15 +13,16 @@ class MyInfo extends React.Component {
   //     poster="/assets/poster.png"
   //     src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
   //   />
-  // //   <
   // }
+
+
   render () {
       return (
         <div>
-          <h2>About Me</h2>
-          <h2>Projects</h2>
-          <h2>Skills</h2>
-          <h2>Contact</h2>
+          <Router> <Link to="/">About Me</Link> </Router>
+          <Router> <Link to="/">Projects</Link> </Router>
+          <Router> <Link to="/">Skills</Link> </Router>
+          <Router> <Link to="/">Contact</Link> </Router>
         </div>
       )
     }

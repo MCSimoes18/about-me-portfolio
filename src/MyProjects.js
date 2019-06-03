@@ -63,7 +63,7 @@ class MyProjects extends React.Component {
   render () {
       return (
         <div>
-        <Document file="file:///Users/MariaCristinaSimoes/Downloads/Resume_Maria%20Cristina%20(1).pdf" />
+        <Document file="mcresume.pdf" />
         {this.returnMealDeals()}
         {this.returnChersCloset()}
         {this.returnSuperScript()}
