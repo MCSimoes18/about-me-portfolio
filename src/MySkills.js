@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom'
 
-class MyInfo extends React.Component {
+class MySkills extends React.Component {
 
 
   // function renderProjects = () => {
@@ -19,13 +19,16 @@ class MyInfo extends React.Component {
   render () {
       return (
         <div>
-          <Router> <Link to="/">About Me</Link> </Router>
-          <Router> <Link to="/">Projects</Link> </Router>
-          <Router> <Link to="/">Skills</Link> </Router>
-          <Router> <Link to="/">Contact</Link> </Router>
+        <h2> Skills </h2>
+        <p> JavaScript </p>
+        <p> React </p>
+        <p> Redux </p>
+        <p> Ruby on Rails </p>
+        <p> HTML </p>
+        <p> CSS </p>
         </div>
       )
     }
   }
 
-export default MyInfo
+export default MySkills
