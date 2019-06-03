@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import MyInfo from './MyInfo';
 import MyProjects from './MyProjects';
-import skills from './skills';
+import MySkills from './MySkills';
 
 
 
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <MyInfo />
       <MyProjects />
-      <skills />
+      <MySkills />
     </div>
   );
 }
