@@ -4,6 +4,7 @@ import './App.css';
 import MyInfo from './MyInfo';
 import MyProjects from './MyProjects';
 import MySkills from './MySkills';
+import ContactMe from './ContactMe';
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <MyInfo />
       <MyProjects />
       <MySkills />
+      <ContactMe />
     </div>
   );
 }
