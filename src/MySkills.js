@@ -5,17 +5,6 @@ import { Link } from 'react-router-dom'
 
 class MySkills extends React.Component {
 
-
-  // function renderProjects = () => {
-  //   <h2> Meal Deals </h2>
-  //   <Player
-  //     playsInline
-  //     poster="/assets/poster.png"
-  //     src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-  //   />
-  // }
-
-
   render () {
       return (
         <div>

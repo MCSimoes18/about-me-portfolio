@@ -34,18 +34,26 @@
 }
 
 .MealDeals {
-  background-color: red;
+  background-color: white;
+  margin: 100px;
+  border: solid;
 }
 .ChersCloset {
-  background-color: pink;
+  background-color: white;
+  margin: 100px;
+  border: solid;
 }
 
 .SuperScript {
-  background-color: yellow;
+  background-color: white;
+  margin: 100px;
+  border: solid;
 }
 
 .SkiPatrol {
-  background-color: blue;
+  background-color: white;
+  margin: 100px;
+  border: solid;
 }
 
 html {
@@ -55,4 +63,15 @@ html {
 img {
   height: 200px;
   width: 200px;
+}
+
+.projectTxt{
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 20px;
+}
+
+.projectVideo{
+  margin: auto;
+  padding-bottom: 50px;
 }
