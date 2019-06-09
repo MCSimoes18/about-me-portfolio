@@ -14,7 +14,7 @@ formSubmit = (e) => {
       buttonText: '...sending'
   })
 
-  resetForm = () => {
+  this.resetForm = () => {
     this.setState({
         name: '',
         message: '',
@@ -50,18 +50,15 @@ formSubmit = (e) => {
   render () {
       return (
         <div>
-        <form>
-            <label> Name </label>
-            <input type="text" name="name" />
-            <p> </p>
-            <label> Email </label>
-            <input type="text" name="email" />
-            <p> </p>
-            <label> Message </label>
-            <textarea onChange={this.handleChange} />
-            <p> </p>
-          <input type="submit" value="Submit" onSubmit=this.formSubmit/>
+        <form action="mailto:mariacristina.simoes@gmail.com" method="GET">
+            <button onclick="location.href='mailto:mariacristina.simoes@gmail.com';">send mail</button>
         </form>
+
+        <form>
+        <button>
+          <a href={'https:www.linkedin.com/in/maria-cristina-simoes/'} target="_blank" className="yelpTxt"> Connect on Linkedin </a>
+        </button>
+          </form>
         </div>
       )
     }
