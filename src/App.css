@@ -56,6 +56,7 @@
   border: solid;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -74,4 +75,9 @@ img {
 .projectVideo{
   margin: auto;
   padding-bottom: 50px;
+}
+
+.skillsList {
+  margin: 100px;
+  border: solid;
 }
