@@ -5,6 +5,7 @@ import MyInfo from './MyInfo';
 import MyProjects from './MyProjects';
 import MySkills from './MySkills';
 import ContactMe from './ContactMe';
+import AboutMe from './AboutMe';
 
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <MyInfo />
+      <AboutMe />
       <MyProjects />
       <MySkills />
       <ContactMe />
