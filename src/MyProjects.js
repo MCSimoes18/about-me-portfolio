@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Player } from 'video-react';
 import ReactPlayer from 'react-player'
-import { Document } from 'react-pdf'
+import { Document, Page, pdfjs } from 'react-pdf'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 class MyProjects extends React.Component {
+
 
 
   returnMealDeals = () => {
@@ -63,7 +65,7 @@ class MyProjects extends React.Component {
   render () {
       return (
         <div>
-        <Document file="mcresume.pdf" />
+        <Document file='/myresume.pdf' />
         {this.returnMealDeals()}
         {this.returnChersCloset()}
         {this.returnSuperScript()}
