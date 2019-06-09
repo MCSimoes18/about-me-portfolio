@@ -20,17 +20,12 @@ class MySkills extends React.Component {
       return (
         <div>
         <h2> Skills </h2>
-        <p> JavaScript </p>
+        <p> JavaScript, React, Redux, Ruby on Rails, HTML, CSS </p>
         <img src={process.env.PUBLIC_URL + '/jscript.svg'} />
-        <p> React </p>
         <img src={process.env.PUBLIC_URL + '/react.svg'} />
-        <p> Redux </p>
         <img src={process.env.PUBLIC_URL + '/redux.png'} />
-        <p> Ruby on Rails </p>
         <img src={process.env.PUBLIC_URL + '/rails.svg.png'} />
-        <p> HTML </p>
         <img src={process.env.PUBLIC_URL + '/html.svg'} />
-        <p> CSS </p>
         <img src={process.env.PUBLIC_URL + '/css.png'} />
         </div>
       )
