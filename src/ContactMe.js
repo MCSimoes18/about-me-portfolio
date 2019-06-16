@@ -52,12 +52,12 @@ formSubmit = (e) => {
         <div>
           <h2> Contact Me </h2>
         <form action="mailto:mariacristina.simoes@gmail.com" method="GET">
-            <button onclick="location.href='mailto:mariacristina.simoes@gmail.com';">send mail</button>
+            <button className="contactBtn" onclick="location.href='mailto:mariacristina.simoes@gmail.com';">send mail</button>
         </form>
 
         <form>
-        <button>
-          <a href={'https:www.linkedin.com/in/maria-cristina-simoes/'} target="_blank" className="yelpTxt"> Connect on Linkedin </a>
+        <button className="contactBtn">
+          <a href={'https:www.linkedin.com/in/maria-cristina-simoes/'} target="_blank"> Connect on Linkedin </a>
         </button>
           </form>
         </div>
