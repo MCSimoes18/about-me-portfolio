@@ -80,4 +80,6 @@ img {
 .skillsList {
   margin: 100px;
   border: solid;
+  border-color: gray;
+  padding-bottom: 30px;
 }
