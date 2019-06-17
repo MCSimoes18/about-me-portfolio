@@ -39,6 +39,8 @@
   border: solid;
   border-color: gray;
 }
+
+
 .ChersCloset {
   background-color: white;
   margin: 100px;
@@ -90,4 +92,11 @@ img {
 
 .contactBtn {
   padding: 20px;
+}
+
+.contactMe {
+  background-color: white;
+  margin: 100px;
+  border: solid;
+  border-color: gray;
 }
