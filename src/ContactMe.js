@@ -49,7 +49,7 @@ formSubmit = (e) => {
 
   render () {
       return (
-        <div>
+        <div className='aboutMe'>
           <h2> Contact Me </h2>
         <form action="mailto:mariacristina.simoes@gmail.com" method="GET">
             <button className="contactBtn" onclick="location.href='mailto:mariacristina.simoes@gmail.com';">send mail</button>
