@@ -115,3 +115,8 @@ img {
   border: solid;
   border-color:  #f7f7f7;
 }
+
+body {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQImVdJjra2W_c3BGkkAT3KK-UjbHJnT85gSgHvsLASKSMb5gs4");
+  background-size: cover;
+}
