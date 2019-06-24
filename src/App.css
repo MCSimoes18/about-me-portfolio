@@ -20,6 +20,8 @@
   color: white;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
+
 .App-link {
   color: #61dafb;
 }
@@ -119,4 +121,9 @@ img {
 body {
   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQImVdJjra2W_c3BGkkAT3KK-UjbHJnT85gSgHvsLASKSMb5gs4");
   background-size: cover;
+}
+
+.myName {
+  font-family: 'Julius Sans One';
+  font-size: 50px;
 }

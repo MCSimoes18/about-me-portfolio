@@ -9,6 +9,7 @@ class MyInfo extends React.Component {
   render () {
       return (
         <div className="navBar">
+          <div className="myName"> <h1> maria cristina simoes </h1> </div>
           <Router> <Link to="/">About Me</Link> </Router>
           <Router> <Link to="/">Projects</Link> </Router>
           <Router> <Link to="/">Skills</Link> </Router>
