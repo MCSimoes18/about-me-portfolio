@@ -107,3 +107,11 @@ img {
   border: solid;
   border-color: gray;
 }
+
+.navBar {
+  background-color: #76c1d4;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  border: solid;
+  border-color:  #f7f7f7;
+}

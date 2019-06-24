@@ -8,7 +8,7 @@ class MyInfo extends React.Component {
 
   render () {
       return (
-        <div className="aboutMe">
+        <div className="navBar">
           <Router> <Link to="/">About Me</Link> </Router>
           <Router> <Link to="/">Projects</Link> </Router>
           <Router> <Link to="/">Skills</Link> </Router>
