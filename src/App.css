@@ -111,11 +111,12 @@ img {
 }
 
 .navBar {
-  background-color: #76c1d4;
+  background-color: #e6f9cf;
   padding-top: 150px;
   padding-bottom: 50px;
   border: solid;
   border-color:  #f7f7f7;
+  border-width: 10px;
 }
 
 body {
