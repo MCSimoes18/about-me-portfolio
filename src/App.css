@@ -40,6 +40,7 @@
   margin: 100px;
   border: solid;
   border-color:  #f7f7f7;
+  border-width: 10px;
 }
 
 
@@ -48,6 +49,7 @@
   margin: 100px;
   border: solid;
   border-color:  #f7f7f7;
+  border-width: 10px;
 }
 
 .SuperScript {
@@ -55,6 +57,7 @@
   margin: 100px;
   border: solid;
   border-color:  #f7f7f7;
+  border-width: 10px;
 }
 
 .SkiPatrol {
@@ -62,6 +65,7 @@
   margin: 100px;
   border: solid;
   border-color:  #f7f7f7;
+  border-width: 10px;
 }
 
 
@@ -91,6 +95,7 @@ img {
   background-color: white;
   border-color:  #f7f7f7;
   padding-bottom: 30px;
+  border-width: 10px;
 }
 
 .contactBtn {
@@ -102,6 +107,7 @@ img {
   margin: 100px;
   border: solid;
   border-color:  #f7f7f7;
+  border-width: 10px;
 }
 
 .aboutMe {
@@ -109,6 +115,7 @@ img {
   margin: 100px;
   border: solid;
   border-color:  #f7f7f7;
+  border-width: 10px;
 }
 
 .navBar {
