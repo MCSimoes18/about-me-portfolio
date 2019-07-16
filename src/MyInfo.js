@@ -9,13 +9,12 @@ class MyInfo extends React.Component {
   render () {
       return (
         <div className="navBar">
-        <div className="myName"> <h1> maria cristina simoes </h1> </div>
+        <div className="myName">
+        <h1> maria cristina simoes </h1> </div>
         <button> About </button>
         <button> Projects </button>
         <button> Skills </button>
         <button> Contact </button>
-
-        </div>
         </div>
       )
     }
