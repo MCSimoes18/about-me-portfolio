@@ -11,10 +11,10 @@ class MyInfo extends React.Component {
         <div className="navBar">
           <div className="myName"> <h1> maria cristina simoes </h1> </div>
           <div className="myLinks">
-          <Router className="myLinks"> <Link to="/">About Me</Link> </Router>
-          <Router className="myLinks"> <Link to="/">Projects</Link> </Router>
-          <Router className="myLinks"> <Link to="/">Skills</Link> </Router>
-          <Router className="myLinks"> <Link to="/">Contact</Link> </Router>
+          <Router className="myLinks" > <Link to="/">about</Link> </Router>
+          <Router className="myLinks"> <Link to="/">projects</Link> </Router>
+          <Router className="myLinks"> <Link to="/">skills</Link> </Router>
+          <Router className="myLinks"> <Link to="/">contact</Link> </Router>
         </div>
         </div>
       )

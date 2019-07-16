@@ -7,7 +7,7 @@ class MySkills extends React.Component {
 
   render () {
       return (
-        <div className="skillsList">
+        <div className="skillsList" >
         <h2> Skills </h2>
         <p> JavaScript, React, Redux, Ruby on Rails, HTML, CSS </p>
         <img src={process.env.PUBLIC_URL + '/jscript.svg'} />
