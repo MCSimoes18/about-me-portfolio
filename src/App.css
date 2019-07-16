@@ -101,6 +101,8 @@ img {
 .contactBtn {
   padding: 20px;
   margin-bottom: 50px;
+  background-color:  #e6f9cf;
+  color: white;
 }
 
 .contactMe {
