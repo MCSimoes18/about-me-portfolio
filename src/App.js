@@ -12,11 +12,11 @@ import AboutMe from './AboutMe';
 function App() {
   return (
     <div className="App">
-      <MyInfo /> // Nav Links
-      <AboutMe /> // Description about me
-      <MyProjects /> // My projects from Flatiron School
-      <MySkills /> // My technologies
-      <ContactMe /> // Email and Linkedin
+      <MyInfo />
+      <AboutMe />
+      <MyProjects />
+      <MySkills />
+      <ContactMe />
     </div>
   );
 }
