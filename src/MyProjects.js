@@ -33,8 +33,16 @@ returnChersDescription = () => {
       <p className="projectTxt"> Chers Closet is an outfit planning application. It allows the user to upload images of clothing items into a virtual closet. Within the closet, the user can scroll through clothing items or filter based on clothing category. The user can create a new outfit by dragging and dropping clothing items from the closet container to the outfit container. The user can scroll through outfits, edit outfits, delete outfits and delete clothing items from their closet. </p>
     )
   }
-
 }
+
+returnSuperScriptDescription = () => {
+  if (this.state.showDescription === true & this.state.showDescriptionOf === 3)  {
+    return (
+        <p className="projectTxt"> SuperScript is a game designed to help teach children how to code in Javascript. SuperScript is built on a Vanilla Javascript front-end, a Ruby on Rails back-end and a custom Chai Test Suite. Upon login, a user will be prompted by a challenge that is specific to each level. Below that challenge is a text editor, where the user will be prompted to fill in the missing line of code to pass the challenge for that level. Upon submit, the text editor executes the code that the user wrote and our custom Chai test suite checks if its return value matches that of the challenge at hand. Users are also able to click the 'hint' button to recieve a clue, or click the 'solution' button to see what the correct answer is for that level.. </p>
+    )
+  }
+}
+
 
 
   returnMealDeals = () => {
@@ -69,7 +77,7 @@ returnChersDescription = () => {
         <h2> SuperScript </h2>
         <h4> Project by Maria Cristina Simoes & Sivan Adler </h4>
           <h4 onClick={() => this.showDescriptionStatus(3)}> Description -> </h4>
-        <p className="projectTxt"> SuperScript is a game designed to help teach children how to code in Javascript. SuperScript is built on a Vanilla Javascript front-end, a Ruby on Rails back-end and a custom Chai Test Suite. Upon login, a user will be prompted by a challenge that is specific to each level. Below that challenge is a text editor, where the user will be prompted to fill in the missing line of code to pass the challenge for that level. Upon submit, the text editor executes the code that the user wrote and our custom Chai test suite checks if its return value matches that of the challenge at hand. Users are also able to click the 'hint' button to recieve a clue, or click the 'solution' button to see what the correct answer is for that level.. </p>
+          {this.returnSuperScriptDescription()}
 
         <ReactPlayer className="projectVideo" url='https://youtu.be/90gPXAhlPMw'/>
         </div>
